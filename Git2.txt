@@ -1,0 +1,132 @@
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git --version
+git version 2.27.0.windows.1
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ touch .gitignore
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ touch log.txt
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIT .txt
+
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIT .txt
+        new file:   dir 1/app1.js
+        new file:   dir 2/app2.js
+
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIT .txt
+        new file:   dir 1/app1.js
+        new file:   dir 2/app2.js
+
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIT .txt
+        new file:   dir 1/app1.js
+        new file:   dir 2/app2.js
+
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIT .txt
+        new file:   dir1/app1.js
+
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git branch login
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ get status
+bash: get: command not found
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ get commit -m 'another change'
+bash: get: command not found
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   GIT .txt
+        new file:   dir1/app1.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dir 1/
+        dir 2/
+
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git branch Login
+fatal: A branch named 'Login' already exists.
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git commit -m 'another change'
+[master 3f05a45] another change
+ 3 files changed, 203 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 GIT .txt
+ create mode 100644 dir1/app1.js
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git add .
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Nageshwar rao@DESKTOP-M0CACF0 MINGW64 ~/Desktop/MyApp (master)
+$ git checkout login
+Switched to branch 'login'
